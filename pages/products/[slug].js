@@ -30,7 +30,7 @@ export default function Product({ product }) {
               {product.name}
             </h1>
             <h1 className="mt-3 text-4xl font-bold text-gray-500 sm:text-3xl sm:tracking-tight lg:text-3xl">
-              ${product.price}
+              tk.{product.price}
             </h1>
             <button
               className="mt-5 rounded-md border border-transparent bg-orange-600 px-4 py-3 font-medium text-white shadow-sm hover:bg-orange-400 sm:px-8"

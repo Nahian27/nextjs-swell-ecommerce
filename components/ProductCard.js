@@ -26,11 +26,11 @@ export default function ProductCard({ product }) {
       </div>
       <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
         <h3>{product.name}</h3>
-        <p>${product.price}</p>
+        <p>Tk.{product.price}</p>
       </div>
-      <p className="mt-1 text-sm italic text-gray-500">
+      {/* <p className="mt-1 text-sm italic text-gray-500">
         {product.options[0].values[0].name} calories
-      </p>
+      </p> */}
     </Link>
   )
 }
